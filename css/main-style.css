@@ -43,6 +43,11 @@
 	font-weight:bold;
 }
 
+.footer-container.entry .footer .logo-links div a  {
+	color:white;
+	font-weight:bold;
+}
+
 .logo-links div {
 	margin-bottom:23px;
 }
