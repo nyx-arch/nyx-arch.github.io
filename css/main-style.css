@@ -1,5 +1,5 @@
 .landing-page-content {
-	max-width:768px;
+	width:768px;
 	height:250px;
 	
 	/*center*/
@@ -13,4 +13,66 @@
 
 .landing-page-content h1 {
 	margin:0;	
+}
+
+.logo-links {
+	margin-top:-161px;
+}
+
+.logo-links div {
+	text-align:center;
+}
+
+.logo-links div a {
+	font-weight:bold;
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+}
+
+.footer .logo-links div a {
+	color:black;
+	font-weight:normal;
+}
+
+.footer .logo-links div a.current {
+	font-weight:bold;
+}
+
+.footer .logo-links div a:hover {
+	font-weight:bold;
+}
+
+.logo-links div {
+	margin-bottom:23px;
+}
+
+.content-container {
+	margin-bottom:260px;
+}
+
+.content-container p {
+	margin:0;
+	margin-bottom:20px
+}
+
+.footer-container {
+	position:fixed;
+	bottom:0;
+	height:260px;
+	width:100%;
+	background-color:white;
+}
+
+.content {
+	width:768px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.footer {
+	height:250px;
+	width:768px;
+	margin-left:auto;
+	margin-right:auto;
 }
