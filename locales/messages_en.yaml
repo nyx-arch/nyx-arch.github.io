@@ -2,6 +2,15 @@ news: News
 projects: Projects
 office: Office
 
+project.location: Location
+project.customer: Customer
+project.program: Program
+project.budget: Budget
+project.date: Date
+project.type: Type
+project.team: Team
+project.images: Images
+
 contact: Contact
 profile: Office profile
 

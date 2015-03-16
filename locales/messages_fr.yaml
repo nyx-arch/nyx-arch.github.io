@@ -2,6 +2,15 @@ news: News
 projects: Projects
 office: Bureau
 
+project.location: Lieu
+project.customer: Client
+project.program: Programme
+project.budget: Budget
+project.date: Date
+project.type: Type
+project.team: Team
+project.images: Images
+
 contact: Contact
 profile: Profil du bureau
 

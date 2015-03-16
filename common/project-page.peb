@@ -14,17 +14,17 @@
 <div>{{fromInfo(resource, locale, 'name')}}</div>
 </div><div class="content-block-text align-left">
 <div>
-  <div><strong>Ort:</strong> {{fromInfo(resource, locale, 'location')}}</div>
-  <div><strong>Bauherrschaft:</strong> {{fromInfo(resource, locale, 'customer')}}</div>
-  <div><strong>Program:</strong> {{fromInfo(resource, locale, 'program')}}</div>
-  <div><strong>Gebäudekosten:</strong> {{fromInfo(resource, locale, 'budget')}}</div>
-  <div><strong>Datum:</strong> {{fromInfo(resource, locale, 'date')}}</div>
-  <div><strong>Typ:</strong> {{fromInfo(resource, locale, 'type')}}</div>
+  <div><strong>{{message('project.location')}}:</strong> {{fromInfo(resource, locale, 'location')}}</div>
+  <div><strong>{{message('project.customer')}}:</strong> {{fromInfo(resource, locale, 'customer')}}</div>
+  <div><strong>{{message('project.program')}}:</strong> {{fromInfo(resource, locale, 'program')}}</div>
+  <div><strong>{{message('project.budget')}}:</strong> {{fromInfo(resource, locale, 'budget')}}</div>
+  <div><strong>{{message('project.date')}}:</strong> {{fromInfo(resource, locale, 'date')}}</div>
+  <div><strong>{{message('project.type')}}:</strong> {{fromInfo(resource, locale, 'type')}}</div>
 </div>
 </div><div class="content-block-text">
   <div>
-    <div><strong>Team:</strong> {{fromInfo(resource, locale, 'team')}}</div>
-    <div><strong>Bilder:</strong> {{fromInfo(resource, locale, 'images')}}</div>
+    <div><strong>{{message('project.team')}}:</strong> {{fromInfo(resource, locale, 'team')}}</div>
+    <div><strong>{{message('project.images')}}:</strong> {{fromInfo(resource, locale, 'images')}}</div>
   </div>
  </div>
 </div>
