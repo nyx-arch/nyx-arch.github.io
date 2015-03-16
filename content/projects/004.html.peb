@@ -1,0 +1,47 @@
+---
+preview-image: 004_CI_1409_000_preview.png
+date: 2014-01-02
+images:
+  - 004_CI_1409_001_context.png
+  - 004_CI_1409_002_pierre-de-savoie.png
+  - 004_CI_1409_003_sections.png
+  - 004_CI_1409_004_diagram-program.png
+  - 004_CI_1409_006_underground-existing.png
+  - 004_CI_1409_007_groundfloor.png
+  - 004_CI_1409_008_first-floor.png
+  - 004_CI_1409_009_diagram-plan.png
+  - 004_CI_1409_010_interior.png
+  
+info:
+  fr:
+    name: COMPLEXE SCOLAIRE ROMONT
+    location: Rue Aliénor, Romont (FR)
+    customer: Commune de Romont
+    program: Ecole enfantine (8 classes), école primaire (17 classes), salle de sport double
+    budget: 17’500’000 CHF
+    date: 2014
+    type: concours ouvert
+    team: NYX architectes, IngPhi SA (ingénieurs civils)
+    images: NYX architectes
+  de:
+    name: SCHULKOMPLEX ROMONT
+    location: Rue Aliénor, Romont (FR)
+    customer: Commune de Romont
+    program: Kindergarten (8 Schulklassen), Primarschule (17 Schulklassen), Turnhalle
+    budget: 17’500’000 CHF
+    date: 2014
+    type: offene Wettbewerb
+    team: NYX architectes, IngPhi SA (Bauingenieur)
+    images: NYX architectes
+  en:
+    name: SCHOOL ROMONT
+    location: Rue Aliénor, Romont (FR)
+    customer: Commune de Romont
+    program: Kindergarten (8 classes), primary school (17 classes), sport hall
+    budget: 17’500’000 CHF
+    date: 2014
+    type: open competition
+    team: NYX architectes, IngPhi SA (structural engineer)
+    images: NYX architectes
+---
+{% extends "common/project-page.peb" %}

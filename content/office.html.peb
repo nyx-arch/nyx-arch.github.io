@@ -1,0 +1,21 @@
+{% extends "common/base-page.peb" %}
+
+{% block title%}{{message('office')}}{% endblock %}
+
+{% block basePath %}../../{% endblock %}
+
+{% block officeSelected %}selected{%endblock %}
+
+{% block section %}office{%endblock %}
+
+{% block content %}<div class="content-block color-on-hover">
+    <a href="contact/">
+      <img src="../../images/office/NYX_adress_preview.png">
+      <div class="block-text">{{message('contact')}}</div>
+    </a>
+  </div><div class="content-block color-on-hover">
+    <a href="profile/">
+      <img src="../../images/office/NYX_profil_preview.png">
+      <div class="block-text">{{message('profile')}}</div>
+    </a>
+  </div>{% endblock %}

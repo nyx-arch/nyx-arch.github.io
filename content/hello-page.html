@@ -1,0 +1,31 @@
+---
+override-output-to-path: index.html
+---
+<!DOCTYPE html>
+<html>
+	<head>
+	  <link rel="stylesheet" href="css/normalize.css">
+ 	  <link rel="stylesheet" href="css/custom.css">
+ 	  <title>NYX ARCHITECTES</title>
+	</head>
+	<body>
+	  <a href="de/projects" id="to-projects">
+	    <div class="welcome-page">
+        <img class="u-max-full-width" src="images/nyx-logo.png">
+        <div class="welcome-page-text">
+          NYX ARCHITECTES
+        </div>
+      </div>
+    </a>
+    <script>
+      var userLang = navigator.language || navigator.userLanguage; 
+      if(userLang) { 
+        if(userLang.indexOf("fr") === 0) {
+          document.getElementById("to-projects").href = "fr/projects";
+        } else if(userLang.indexOf("en") === 0) {
+          document.getElementById("to-projects").href = "en/projects";
+        }
+      }
+    </script>
+	</body>
+</html>

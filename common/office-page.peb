@@ -1,0 +1,7 @@
+{%extends "common/base-page.peb" %}
+
+{% block basePath %}../../../{% endblock %}
+
+{% block officeSelected %}selected{%endblock %}
+
+{% block section %}office{%endblock %}

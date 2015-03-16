@@ -1,0 +1,17 @@
+{%extends "common/base-page.peb" %}
+
+{% block title %}News - {{metadata.rawMap.title}}{% endblock %}
+
+{% block basePath %}../../../{% endblock %}
+
+{% block newsSelected %}selected{%endblock %}
+
+{% block section %}news{%endblock %}
+
+
+{% block content %}
+<div class="news">
+  {{metadata.rawMap.date | date("dd.MM.yyyy")}}
+  {{content|raw}}
+</div>
+{%endblock %}

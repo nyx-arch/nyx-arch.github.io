@@ -1,0 +1,47 @@
+---
+preview-image: 002_CI_1406_000_preview.png
+date: 2014-01-01
+images: 
+  - 002_CI_1406_001_aeral-view.png
+  - 002_CI_1406_002_siteplan.png
+  - 002_CI_1406_003_model.png
+  - 002_CI_1406_004_model.png
+  - 002_CI_1406_005_plans.png
+  - 002_CI_1406_006_outside.png
+  - 002_CI_1406_007_diagram-phasing.png
+  - 002_CI_1406_008_diagram-program.png
+  - 002_CI_1406_009_inside.png
+
+info:
+  fr:
+    name: CO LA VEVEYSE
+    location: Chemin des Crêts, Châtel St-Denis (FR)
+    customer: Association des communes de la Veveyse pour le Cycle d’Orientation
+    program: Ecole (35 salles de classes, bibliothèque publique, administration)
+    budget: 25’000’000 CHF
+    date: 2014
+    type: concours ouvert
+    team: NYX architectes, IngPhi SA (ingénieurs civils)
+    images: NYX architectes
+  de:
+    name: CO LA VEVEYSE
+    location: Chemin des Crêts, Châtel St-Denis (FR)
+    customer: Association des communes de la Veveyse pour le Cycle d’Orientation
+    program: Schule (35 Schulklassen, öffentliche Bibliothek, Verwaltung)
+    budget: 25’000’000 CHF
+    date: 2014
+    type: offene Wettbewerb
+    team: NYX architectes, IngPhi SA (Bauingenieur)
+    images: NYX architectes
+  en:
+    name: CO LA VEVEYSE
+    location: Chemin des Crêts, Châtel St-Denis (FR)
+    customer: Association des communes de la Veveyse pour le Cycle d’Orientation
+    program: School (35 classes, public library, administration)
+    budget: 25’000’000 CHF
+    date: 2014
+    type: open competition
+    team: NYX architectes, IngPhi SA (structural engineer)
+    images: NYX architectes
+---
+{% extends "common/project-page.peb" %}

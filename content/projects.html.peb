@@ -1,0 +1,18 @@
+{% extends "common/base-page.peb" %}
+
+{% block title%}{{message('projects')}}{% endblock %}
+
+{% block basePath %}../../{% endblock %}
+
+{% block projectSelected %}selected{%endblock %}
+
+{% block section %}projects{%endblock %}
+
+{% block content %}
+{% for project in resource.parent.directories.projects.files.values %}<div class="content-block color-on-hover">
+  <a href="{{project.fileNameWithoutExtensions}}">
+    <img src="../../images/projects/{{project.fileNameWithoutExtensions}}/{{project.metadata.rawMap['preview-image']}}">
+    <div class="block-text">{{fromMap(fromMap(project.metadata.rawMap['info'], locale.toString()), 'name')}}</div>
+  </a>
+</div>{% endfor %}
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "common/office-page.peb" %}
+
+{% block title %}{{message('profile')}}{% endblock %}
+
+{% block content %}
+<div class="content-image">
+  <img src="../../../images/office/NYX_profil.png">
+</div>
+
+<div class="long-text-section">
+  <h2>{{message('profile.office')}}</h2>
+  <div>{{message('profile.office.description')}}</div>
+</div>
+
+<div class="long-text-section">
+  <h2>{{message('profile.approach')}}</h2>
+  <div>{{message('profile.approach.description')}}</div>
+</div>
+
+
+<div>
+  <div>{{message('profile.cv.nathanael')}}</div>
+</div>
+
+<div>
+  <div>{{message('profile.cv.yann')}}</div>
+</div>
+
+{% endblock %}

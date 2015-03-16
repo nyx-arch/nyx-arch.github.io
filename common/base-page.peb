@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <link rel="stylesheet" href="{% block basePath %}{% endblock %}css/normalize.css">
+ 	  <link rel="stylesheet" href="{% block basePath %}{% endblock %}css/custom.css">
+ 	  <title>NYX ARCHITECTES - {% block title %}{%endblock %}</title>
+	</head>
+	<body>
+	  <div class="container">
+      <div class="menu">
+        <div class="logo-container logo-n {% block newsSelected %}{%endblock %}">
+          <a class="logo-link-section" href="{% block basePath %}{% endblock %}{{locale}}/news/">{{message('news')}}</a>
+          <div class="menu-lang"><a href="/de/{% block section %}{% endblock %}/">DE</a> 
+            <a href="/fr/{% block section %}{% endblock %}/">FR</a> 
+            <a href="/en/{% block section %}{% endblock %}/">EN</a>
+        </div>
+        </div>
+        <div class="logo-container logo-y {% block projectSelected %}{%endblock %}">
+          <a class="logo-link-section" href="{% block basePath %}{% endblock %}{{locale}}/projects/">{{message('projects')}}</a>        
+        </div>
+        <div class="logo-container logo-x {% block officeSelected %}{%endblock %}">
+          <a class="logo-link-section" href="{% block basePath %}{% endblock %}{{locale}}/office/">{{message('office')}}</a>          
+        </div>
+      </div>
+      <div class="content">
+	      <div>{% block content %}{% endblock %}</div>
+	    </div>
+    </div>
+	</body>
+</html>
