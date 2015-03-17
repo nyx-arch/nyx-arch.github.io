@@ -2,6 +2,8 @@
 
 {% block title %}{{message('profile')}}{% endblock %}
 
+{% block section %}office/profile{%endblock %}
+
 {% block content %}
 <div class="content-image">
   <img src="../../../images/office/NYX_profil.png">

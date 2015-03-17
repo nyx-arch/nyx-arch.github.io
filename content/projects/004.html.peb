@@ -45,3 +45,5 @@ info:
     images: NYX architectes
 ---
 {% extends "common/project-page.peb" %}
+
+{% block section %}projects/004{%endblock %}
