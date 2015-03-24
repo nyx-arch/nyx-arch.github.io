@@ -24,7 +24,7 @@ info:
     budget: 6’050’000 CHF
     date: 2014
     type: offene Wettbewerb
-    team: NYX architectes, IngPhi SA (Bauingenieur)
+    team: NYX architectes
     images: NYX architectes
   en:
     name: COLLECTIVE HOUSING LAUSANNE
@@ -34,7 +34,7 @@ info:
     budget: 6’050’000 CHF
     date: 2014
     type: open competition
-    team: NYX architectes, IngPhi SA (structural engineer)
+    team: NYX architectes
     images: NYX architectes
 ---
 {% extends "common/project-page.peb" %}
