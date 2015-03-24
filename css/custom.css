@@ -1,4 +1,8 @@
 
+html.overflow-y-scroll {
+  overflow-y:scroll;
+}
+
 body {
   font-family: "Helvetica", "Arial", "Liberation Sans"
 }
