@@ -1,0 +1,42 @@
+---
+preview-image: 003_CI_1408_000_preview.png
+date: 2014-01-03
+images: 
+  - 003_CI_1408_001_base.jpg
+  - 003_CI_1408_002_final.png
+
+info:
+  fr:
+    name: HEBERGEMENT COLLECTIF LAUSANNE
+    location: Avenue Echallens, Lausanne (VD)
+    customer: Etablissement vaudois d’accueil des migrants
+    program: Logements pour 120 requérants d’asile
+    budget: 6’050’000 CHF
+    date: 2014
+    type: concours ouvert
+    team: NYX architectes
+    images: NYX architectes
+  de:
+    name: ASYLBEWERBERHEIM LAUSANNE
+    location: Avenue Echallens, Lausanne (VD)
+    customer: Etablissement vaudois d’accueil des migrants
+    program: Asylumbewerberheim für 120 Personen
+    budget: 6’050’000 CHF
+    date: 2014
+    type: offene Wettbewerb
+    team: NYX architectes, IngPhi SA (Bauingenieur)
+    images: NYX architectes
+  en:
+    name: COLLECTIVE HOUSING LAUSANNE
+    location: Avenue Echallens, Lausanne (VD)
+    customer: Etablissement vaudois d’accueil des migrants
+    program: Housing for 120 asylum seekers
+    budget: 6’050’000 CHF
+    date: 2014
+    type: open competition
+    team: NYX architectes, IngPhi SA (structural engineer)
+    images: NYX architectes
+---
+{% extends "common/project-page.peb" %}
+
+{% block section %}projects/003{%endblock %}

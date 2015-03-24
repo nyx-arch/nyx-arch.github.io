@@ -1,16 +1,14 @@
 ---
 preview-image: 002_CI_1406_000_preview.png
-date: 2014-01-01
+date: 2014-01-02
 images: 
   - 002_CI_1406_001_aeral-view.png
-  - 002_CI_1406_002_siteplan.png
-  - 002_CI_1406_003_model.png
-  - 002_CI_1406_004_model.png
-  - 002_CI_1406_005_plans.png
-  - 002_CI_1406_006_outside.png
-  - 002_CI_1406_007_diagram-phasing.png
-  - 002_CI_1406_008_diagram-program.png
-  - 002_CI_1406_009_inside.png
+  - 002_CI_1406_002_model.png
+  - 002_CI_1406_003_diagram.png
+  - 002_CI_1406_004_plans.png
+  - 002_CI_1406_005_outside.png
+  - 002_CI_1406_006_diagram-phasing.png
+  - 002_CI_1406_007_inside.png  
 
 info:
   fr:

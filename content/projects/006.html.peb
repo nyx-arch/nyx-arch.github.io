@@ -1,0 +1,50 @@
+---
+preview-image: 006_CI_1410_000_preview.png
+date: 2014-01-06
+images:
+  - 006_CI_1410_001_existing.png
+  - 006_CI_1411_002_concept.png
+  - 006_CI_1411_003_Site-Birdview.png
+  - 006_CI_1411_004_plan.png
+  - 006_CI_1411_006_terrasse.png
+  - 006_CI_1411_007_recycle.png
+  - 006_CI_1411_008_wood-species.png
+  - 006_CI_1411_009_view_entrance.png
+  - 006_CI_1411_010_Section_50.png
+  - 006_CI_1411_011_highway_night.png    
+
+info:
+  fr:
+    name: EXTENSION DE LA STATION D’ÉPURATION, VIDY-LAUSANNE
+    location: Route de Vidy, Parc du Bourget, Lausanne (VD)
+    customer: Ville de Lausanne, Direction des travaux, Service d’assainissement
+    program: Concept pour façades et toitures des nouveaux bâtiments de traitement des eaux
+    budget: 25’000’000 CHF (CFC 2+4)
+    date: 2014
+    type: concours ouvert
+    team: NYX architectes, Terraplant AG (Umweltingenieur), SIMA/BREER (Landschaftarchitektur)
+    images: NYX architectes
+  de:
+    name: ERWEITERUNG DER KLÄRANLAGE, VIDY-LAUSANNE
+    location: Route de Vidy, Parc du Bourget, Lausanne (VD)
+    customer: Ville de Lausanne, Direction des travaux, Service d’assainissement
+    program: Fassaden- und Dachgestaltung der Kläranlage und Umgebung
+    budget: 25’000’000 CHF (BKP 2+4)
+    date: 2014
+    type: offene Wettbewerb
+    team: NYX architectes, Terraplant AG (Umweltingenieur), SIMA/BREER (Landschaftarchitektur)
+    images: NYX architectes
+  en:
+    name: EXTENSION OF THE WASTEWATER TREATMENT PLANT
+    location: Route de Vidy, Parc du Bourget, Lausanne (VD)
+    customer: Ville de Lausanne, Direction des travaux, Service d’assainissement
+    program: Concept for facades and roof of the treatment plant new buildings 
+    budget: 25’000’000 CHF
+    date: 2014
+    type: open competition
+    team: NYX architectes, Terraplant AG (environment engineer), SIMA/BREER (landscape architect)
+    images: NYX architectes
+---
+{% extends "common/project-page.peb" %}
+
+{% block section %}projects/006{%endblock %}

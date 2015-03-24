@@ -112,16 +112,16 @@ body {
   height:220px; 
   width:220px;
   margin-bottom:4px;
-  outline: 1px solid black;
-  outline-offset: -1px;
+  /*outline: 1px solid black;
+  outline-offset: -1px;*/
 }
 
 .content-image {
   width:700px;
   height:484px;
   margin-bottom:44px;
-  outline: 1px solid black;
-  outline-offset: -1px;
+  /*outline: 1px solid black;
+  outline-offset: -1px;*/
 }
 
 .content-block-text {
