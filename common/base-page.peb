@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="overflow-y-scroll">
+<html class="overflow-y-scroll" lang="{{locale}}">
 	<head>
 	  <link rel="stylesheet" href="{% block basePath %}{% endblock %}css/normalize.css">
  	  <link rel="stylesheet" href="{% block basePath %}{% endblock %}css/custom.css">
