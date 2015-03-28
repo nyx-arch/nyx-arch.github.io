@@ -7,10 +7,11 @@
 
 {% block projectSelected %}selected{%endblock %}
 
-{% block section %}projects{%endblock %}
+{% block section %}projects/{{resource.fileNameWithoutExtensions}}{%endblock %}
 
 {% block content %}
-  {% for image in resource.metadata.rawMap['images'] %}<div class="content-image"><img src="../../../images/projects/{{resource.fileNameWithoutExtensions}}/{{image}}"></div>{% endfor %}<div class="content-blocks-text project-page"><div class="content-block-text">
+
+  {% for image in fromMap(static.directories.images.directories.projects.directories, resource.fileNameWithoutExtensions).files.keySet %}{% if loop.index > 0%}<div class="content-image"><img src="../../../images/projects/{{resource.fileNameWithoutExtensions}}/{{image}}"></div>{% endif %}{% endfor %}<div class="content-blocks-text project-page"><div class="content-block-text">
 <div>{{fromInfo(resource, locale, 'name')}}</div>
 </div><div class="content-block-text align-left">
 <div>

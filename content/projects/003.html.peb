@@ -1,10 +1,6 @@
 ---
 preview-image: 003_CI_1408_000_preview.png
 date: 2014-01-03
-images: 
-  - 003_CI_1408_001_base.jpg
-  - 003_CI_1408_002_final.png
-
 info:
   fr:
     name: HEBERGEMENT COLLECTIF LAUSANNE
@@ -38,5 +34,3 @@ info:
     images: NYX architectes
 ---
 {% extends "common/project-page.peb" %}
-
-{% block section %}projects/003{%endblock %}

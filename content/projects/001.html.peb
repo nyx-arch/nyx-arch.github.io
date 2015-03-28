@@ -1,11 +1,6 @@
 ---
 preview-image: 001_CI_1403_000_preview.png
 date: 2014-01-01
-images: 
-  - 001_CI_1403_001_entrance.png
-  - 001_CI_1403_002_classe.png
-  - 001_CI_1403_003_model.png
-
 info:
   fr:
     name: ECOLE PRIMAIRE VAULRUZ
@@ -39,5 +34,3 @@ info:
     images: NYX architectes
 ---
 {% extends "common/project-page.peb" %}
-
-{% block section %}projects/001{%endblock %}

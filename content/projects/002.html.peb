@@ -1,15 +1,6 @@
 ---
 preview-image: 002_CI_1406_000_preview.png
 date: 2014-01-02
-images: 
-  - 002_CI_1406_001_aeral-view.png
-  - 002_CI_1406_002_model.png
-  - 002_CI_1406_003_diagram.png
-  - 002_CI_1406_004_plans.png
-  - 002_CI_1406_005_outside.png
-  - 002_CI_1406_006_diagram-phasing.png
-  - 002_CI_1406_007_inside.png  
-
 info:
   fr:
     name: CO LA VEVEYSE
@@ -43,5 +34,3 @@ info:
     images: NYX architectes
 ---
 {% extends "common/project-page.peb" %}
-
-{% block section %}projects/002{%endblock %}

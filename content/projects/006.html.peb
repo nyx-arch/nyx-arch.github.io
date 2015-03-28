@@ -1,18 +1,6 @@
 ---
 preview-image: 006_CI_1410_000_preview.png
 date: 2014-01-06
-images:
-  - 006_CI_1410_001_existing.png
-  - 006_CI_1411_002_concept.png
-  - 006_CI_1411_003_Site-Birdview.png
-  - 006_CI_1411_004_plan.png
-  - 006_CI_1411_006_terrasse.png
-  - 006_CI_1411_007_recycle.png
-  - 006_CI_1411_008_wood-species.png
-  - 006_CI_1411_009_view_entrance.png
-  - 006_CI_1411_010_Section_50.png
-  - 006_CI_1411_011_highway_night.png    
-
 info:
   fr:
     name: EXTENSION DE LA STATION D’ÉPURATION, VIDY-LAUSANNE
@@ -46,5 +34,3 @@ info:
     images: NYX architectes
 ---
 {% extends "common/project-page.peb" %}
-
-{% block section %}projects/006{%endblock %}
