@@ -10,9 +10,9 @@
       <div class="menu">
         <div class="logo-container logo-n {% block newsSelected %}{%endblock %}">
           <a class="logo-link-section" href="{% block basePath %}{% endblock %}{{locale}}/news/">{{message('news')}}</a>
-          <div class="menu-lang"><a href="/de/{% block section %}{% endblock %}/">DE</a> 
-            <a href="/fr/{% block section %}{% endblock %}/">FR</a> 
-            <a href="/en/{% block section %}{% endblock %}/">EN</a>
+          <div class="menu-lang"><a href="/de/{% block section %}{% endblock %}/" hreflang="de">DE</a> 
+            <a href="/fr/{% block section %}{% endblock %}/" hreflang="fr">FR</a> 
+            <a href="/en/{% block section %}{% endblock %}/" hreflang="en">EN</a>
         </div>
         </div>
         <div class="logo-container logo-y {% block projectSelected %}{%endblock %}">
