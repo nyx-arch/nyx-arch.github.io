@@ -3,7 +3,7 @@ preview-image: 004_CI_1409_000_preview.png
 date: 2014-01-04
 info:
   fr:
-    name: COMPLEXE SCOLAIRE ROMONT
+    name: Complexe scolaire Romont
     location: Rue Aliénor, Romont (FR)
     customer: Commune de Romont
     program: Ecole enfantine (8 classes), école primaire (17 classes), salle de sport double
@@ -13,7 +13,7 @@ info:
     team: NYX architectes, IngPhi SA (ingénieurs civils)
     images: NYX architectes
   de:
-    name: SCHULKOMPLEX ROMONT
+    name: Schulkomplex Romont
     location: Rue Aliénor, Romont (FR)
     customer: Commune de Romont
     program: Kindergarten (8 Schulklassen), Primarschule (17 Schulklassen), Turnhalle
@@ -23,7 +23,7 @@ info:
     team: NYX architectes, IngPhi SA (Bauingenieur)
     images: NYX architectes
   en:
-    name: SCHOOL ROMONT
+    name: School Romont
     location: Rue Aliénor, Romont (FR)
     customer: Commune de Romont
     program: Kindergarten (8 classes), primary school (17 classes), sport hall

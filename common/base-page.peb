@@ -3,7 +3,7 @@
 	<head>
 	  <link rel="stylesheet" href="{% block basePath %}{% endblock %}css/normalize.css">
  	  <link rel="stylesheet" href="{% block basePath %}{% endblock %}css/custom.css">
- 	  <title>NYX ARCHITECTES - {% block title %}{%endblock %}</title>
+ 	  <title>NYX architectes - {% block title %}{%endblock %}</title>
 	</head>
 	<body>
 	  <div class="container">

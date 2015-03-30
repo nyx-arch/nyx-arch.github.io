@@ -2,6 +2,7 @@ news: News
 projects: Projects
 office: Office
 
+project: Project
 project.location: Location
 project.customer: Customer
 project.program: Program

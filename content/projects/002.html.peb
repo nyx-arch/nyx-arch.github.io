@@ -3,7 +3,7 @@ preview-image: 002_CI_1406_000_preview.png
 date: 2014-01-02
 info:
   fr:
-    name: CO LA VEVEYSE
+    name: CO la Veveyse
     location: Chemin des Crêts, Châtel St-Denis (FR)
     customer: Association des communes de la Veveyse pour le Cycle d’Orientation
     program: Ecole (35 salles de classes, bibliothèque publique, administration)
@@ -13,7 +13,7 @@ info:
     team: NYX architectes, IngPhi SA (ingénieurs civils)
     images: NYX architectes
   de:
-    name: CO LA VEVEYSE
+    name: CO la Veveyse
     location: Chemin des Crêts, Châtel St-Denis (FR)
     customer: Association des communes de la Veveyse pour le Cycle d’Orientation
     program: Schule (35 Schulklassen, öffentliche Bibliothek, Verwaltung)
@@ -23,7 +23,7 @@ info:
     team: NYX architectes, IngPhi SA (Bauingenieur)
     images: NYX architectes
   en:
-    name: CO LA VEVEYSE
+    name: CO la Veveyse
     location: Chemin des Crêts, Châtel St-Denis (FR)
     customer: Association des communes de la Veveyse pour le Cycle d’Orientation
     program: School (35 classes, public library, administration)

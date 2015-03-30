@@ -8,7 +8,11 @@
 
 {% block section %}office{%endblock %}
 
-{% block content %}<div class="content-block color-on-hover">
+{% block content %}
+
+<h1 class="hidden">{{message('office')}}</h1>
+
+<div class="content-block color-on-hover">
     <a href="contact/">
       <img src="../../images/office/NYX_adress_preview.png">
       <div class="block-text">{{message('contact')}}</div>

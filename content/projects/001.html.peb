@@ -3,7 +3,7 @@ preview-image: 001_CI_1403_000_preview.png
 date: 2014-01-01
 info:
   fr:
-    name: ECOLE PRIMAIRE VAULRUZ
+    name: Ecole primaire Vaulruz
     location: Vue des Alpes, Vaulruz (FR)
     customer: Commune de Vaulruz
     program: Ecole primaire (10 salles de classes, bureaux, terrain de sport)
@@ -13,7 +13,7 @@ info:
     team: NYX architectes
     images: NYX architectes
   de:
-    name: PRIMARSCHULE VAULRUZ
+    name: Primarschule Vaulruz
     location: Vue des Alpes, Vaulruz (FR)
     customer: Gemeinde Vaulruz
     program: Schule (10 Schulklassen, Verwaltung, Sportplatz)
@@ -23,7 +23,7 @@ info:
     team: NYX architectes
     images: NYX architectes
   en:
-    name: PRIMARY SCHOOL VAULRUZ
+    name: Primary school Vaulruz
     location: Vue des Alpes, Vaulruz (FR)
     customer: Community Vaulruz
     program: School (10 classes, administration, sport field)

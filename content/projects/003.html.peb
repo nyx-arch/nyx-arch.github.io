@@ -3,7 +3,7 @@ preview-image: 003_CI_1408_000_preview.png
 date: 2014-01-03
 info:
   fr:
-    name: HEBERGEMENT COLLECTIF LAUSANNE
+    name: Hébergement collectif Lausanne
     location: Avenue Echallens, Lausanne (VD)
     customer: Etablissement vaudois d’accueil des migrants
     program: Logements pour 120 requérants d’asile
@@ -13,7 +13,7 @@ info:
     team: NYX architectes
     images: NYX architectes
   de:
-    name: ASYLBEWERBERHEIM LAUSANNE
+    name: Asylbewerberheim Lausanne
     location: Avenue Echallens, Lausanne (VD)
     customer: Etablissement vaudois d’accueil des migrants
     program: Asylumbewerberheim für 120 Personen
@@ -23,7 +23,7 @@ info:
     team: NYX architectes
     images: NYX architectes
   en:
-    name: COLLECTIVE HOUSING LAUSANNE
+    name: Collective housing Lausanne
     location: Avenue Echallens, Lausanne (VD)
     customer: Etablissement vaudois d’accueil des migrants
     program: Housing for 120 asylum seekers

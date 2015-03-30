@@ -9,6 +9,9 @@
 {% block section %}projects{%endblock %}
 
 {% block content %}
+
+<h1 class="hidden">{{message('projects')}}</h1>
+
 {% for project in resource.parent.directories.projects.files.values %}<div class="content-block color-on-hover">
   <a href="{{project.fileNameWithoutExtensions}}">
     <img src="../../images/projects/{{project.fileNameWithoutExtensions}}/{{project.metadata.rawMap['preview-image']}}">

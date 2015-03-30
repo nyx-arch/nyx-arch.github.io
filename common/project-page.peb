@@ -1,7 +1,7 @@
 
 {%extends "common/base-page.peb" %}
 
-{% block title%}{{fromInfo(resource, locale, 'name')}}{% endblock %}
+{% block title%}{{message('project')}}: {{fromInfo(resource, locale, 'name')}}{% endblock %}
 
 {% block basePath %}../../../{% endblock %}
 
@@ -11,21 +11,23 @@
 
 {% block content %}
 
+  <h1 class="hidden">{{message('project')}}: {{fromInfo(resource, locale, 'name')}}</h1>
+
   {% for image in fromMap(static.directories.images.directories.projects.directories, resource.fileNameWithoutExtensions).files.keySet %}{% if loop.index > 0%}<div class="content-image"><img src="../../../images/projects/{{resource.fileNameWithoutExtensions}}/{{image}}"></div>{% endif %}{% endfor %}<div class="content-blocks-text project-page"><div class="content-block-text">
-<div>{{fromInfo(resource, locale, 'name')}}</div>
+<div class="uppercase"><span class="hidden">{{message('project')}}: </span>{{fromInfo(resource, locale, 'name')}}</div>
 </div><div class="content-block-text align-left">
 <div>
-  <div><strong>{{message('project.location')}}:</strong> {{fromInfo(resource, locale, 'location')}}</div>
-  <div><strong>{{message('project.customer')}}:</strong> {{fromInfo(resource, locale, 'customer')}}</div>
-  <div><strong>{{message('project.program')}}:</strong> {{fromInfo(resource, locale, 'program')}}</div>
-  <div><strong>{{message('project.budget')}}:</strong> {{fromInfo(resource, locale, 'budget')}}</div>
-  <div><strong>{{message('project.date')}}:</strong> {{fromInfo(resource, locale, 'date')}}</div>
-  <div><strong>{{message('project.type')}}:</strong> {{fromInfo(resource, locale, 'type')}}</div>
+  <div><span class="bold">{{message('project.location')}}:</span> {{fromInfo(resource, locale, 'location')}}</div>
+  <div><span class="bold">{{message('project.customer')}}:</span> {{fromInfo(resource, locale, 'customer')}}</div>
+  <div><span class="bold">{{message('project.program')}}:</span> {{fromInfo(resource, locale, 'program')}}</div>
+  <div><span class="bold">{{message('project.budget')}}:</span> {{fromInfo(resource, locale, 'budget')}}</div>
+  <div><span class="bold">{{message('project.date')}}:</span> {{fromInfo(resource, locale, 'date')}}</div>
+  <div><span class="bold">{{message('project.type')}}:</span> {{fromInfo(resource, locale, 'type')}}</div>
 </div>
 </div><div class="content-block-text">
   <div>
-    <div><strong>{{message('project.team')}}:</strong> {{fromInfo(resource, locale, 'team')}}</div>
-    <div><strong>{{message('project.images')}}:</strong> {{fromInfo(resource, locale, 'images')}}</div>
+    <div><span class="bold">{{message('project.team')}}:</span> {{fromInfo(resource, locale, 'team')}}</div>
+    <div><span class="bold">{{message('project.images')}}:</span> {{fromInfo(resource, locale, 'images')}}</div>
   </div>
  </div>
 </div>

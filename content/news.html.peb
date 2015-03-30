@@ -9,6 +9,7 @@
 {% block section %}news{%endblock %}
 
 {% block content %}
+<h1 class="hidden">{{message('news')}}</h1>
 {% for news in resource.parent.directories.news.files.values %}<div class="content-block color-on-hover">
   <a href="{{news.fileNameWithoutExtensions}}">
     <img src="{{news.metadata.rawMap['image']}}">

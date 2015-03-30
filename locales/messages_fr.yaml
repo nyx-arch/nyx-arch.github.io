@@ -2,6 +2,7 @@ news: News
 projects: Projets
 office: Bureau
 
+project: Projet
 project.location: Lieu
 project.customer: Client
 project.program: Programme

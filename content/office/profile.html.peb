@@ -5,6 +5,8 @@
 {% block section %}office/profile{%endblock %}
 
 {% block content %}
+<h1 class="hidden">{{message('profile')}}</h1>
+
 <div class="content-image">
   <img src="../../../images/office/NYX_profil.png">
 </div>

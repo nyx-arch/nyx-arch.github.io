@@ -1,23 +1,25 @@
 {% extends "common/office-page.peb" %}
 
-{% block title %}{{message('contact')}}{% endblock %}
+{% block title %}{{message('office')}} - {{message('contact')}}{% endblock %}
 
 {% block section %}office/contact{%endblock %}
 
 {% block content %}
+<h1 class="hidden">{{message('contact')}}</h1>
+
 <div class="content-image">
-  <img src="../../../images/office/NYX_adress.png">
+  <img src="../../../images/office/NYX_adress.png" alt="NYX architectes, Bändlistrasse 31, 8064 Zürich">
 </div><div class="content-blocks-text">
-<div class="content-block-text">
+<div class="content-block-text uppercase">
 <div>
-NYX ARCHITECTES<br>
-BÄNDLISTRASSE 31<br>
-8064 ZÜRICH
+NYX architectes<br>
+Bändlistrasse 31<br>
+8064 Zürich
 </div>
-</div><div class="content-block-text">
+</div><div class="content-block-text uppercase">
     <div>T: <a href="tel:+41 44 271 18 10">+41 44 271 18 10</a></div>
-</div><div class="content-block-text">
-    <div><a href="mailto:mail@nyx-arch.ch">MAIL@NYX-ARCH.CH</a></div>
+</div><div class="content-block-text uppercase">
+    <div><a href="mailto:mail@nyx-arch.ch">mail@nyx-arch.ch</a></div>
   </div>
 </div>  
 {% endblock %}
