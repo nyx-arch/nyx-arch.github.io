@@ -203,6 +203,7 @@ body {
 
 .long-text-section h2{
  margin-bottom:0.25em;
+ margin-top:0.25em;
 }
 
 .long-text-section div {
@@ -225,5 +226,26 @@ body {
 
 .uppercase {
   text-transform:uppercase;
+}
+
+.office-profile-box {
+  box-sizing: border-box;
+  border:1px solid black;
+  height:484px;
+  width:700px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.office-profile-box-small {
+  height:220px;  
+}
+
+.box-separator {
+  margin-bottom:44px
+}
+
+.office-profile {
+  font-size:13px;
 }
 
