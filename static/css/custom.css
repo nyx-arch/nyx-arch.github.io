@@ -206,7 +206,7 @@ body {
  margin-top:0.25em;
 }
 
-.long-text-section div {
+.long-text-section div, .long-text-section p {
   text-align:justify;
   line-height:1.25em;
 }
@@ -247,5 +247,29 @@ body {
 
 .office-profile {
   font-size:13px;
+}
+
+.news-box {
+  box-sizing: border-box;
+  border:1px solid black;
+  width:700px;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:13px;
+}
+
+.news-box h1 {
+  font-size: 19.5px;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+.news-box a {
+  color:black;
+  text-decoration:none;
+}
+
+.news-box a:hover {
+  text-decoration:underline;
 }
 
