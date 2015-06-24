@@ -1,0 +1,23 @@
+{% extends "common/office-page.peb" %}
+
+{% block title %}Nous recherchons…{% endblock %}
+
+{% block section %}office/004{%endblock %}
+
+{% block content %}
+<h1 class="hidden">Nous recherchons…</h1>
+
+<div class="office-profile-box office-profile-box-small box-separator box-vertically-center">
+  <div>
+    <div class="long-text-section office-profile">
+      <h2>Nous recherchons…</h2>
+      <div>NYX est à la recherche d’un ou d’une stagiaire ayant achevé le cycle bachelor avec d’excellentes compétences créatives, structuré(e) et capable de travailler en équipe. Bonne maîtrise d’Archicad (2D et 3D, BIM), connaissances de base d’Adobe Creative Suite et d’Office. Germanophone, des connaissances de français et/ou d’anglais seraient un plus.</div>
+    </div>
+
+    <div class="long-text-section office-profile">
+      <p>Si vous pensez correspondre à ce profil et que vous êtes motivé(e) à travailler dans une ambiance jeune et dynamique, faites-nous parvenir votre dossier, lettre de motivation, cv et portfolio (PDF) à: <a href="mailto:mail@nyx-arch.ch">mail@nyx-arch.ch</a> (max. 10MB)
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

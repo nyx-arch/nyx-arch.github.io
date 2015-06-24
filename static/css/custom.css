@@ -253,9 +253,17 @@ body {
   box-sizing: border-box;
   border:1px solid black;
   width:700px;
+  height: 220px;
   padding-left:10px;
   padding-right:10px;
   font-size:13px;
+  display: flex;
+  align-items: center;
+}
+
+.box-vertically-center {
+  display: flex;
+  align-items: center;
 }
 
 .news-box h1 {

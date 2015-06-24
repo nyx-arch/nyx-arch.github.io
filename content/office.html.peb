@@ -22,4 +22,14 @@
       <img src="../../images/office/NYX_profil_preview.png">
       <div class="block-text">{{message('profile')}}</div>
     </a>
+  </div><div class="content-block color-on-hover">
+    <a href="003/">
+      <img src="../../images/office/003/003_CI_1506_000_preview.png">
+      <div class="block-text">{{message('office.003')}}</div>
+    </a>
+  </div><div class="content-block color-on-hover">
+    <a href="004/">
+      <img src="../../images/office/004/004_CI_1506_000_preview.png">
+      <div class="block-text">{{message('office.004')}}</div>
+    </a>
   </div>{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "common/office-page.peb" %}
+
+{% block title %}Wir suchen…{% endblock %}
+
+{% block section %}office/004{%endblock %}
+
+{% block content %}
+<h1 class="hidden">Wir suchen…</h1>
+
+<div class="office-profile-box office-profile-box-small box-separator box-vertically-center">
+  <div>
+    <div class="long-text-section office-profile">
+      <h2>Wir suchen…</h2>
+      <div>NYX architectes sucht einen oder eine Praktikant(in), die über ausgezeichnete gestalterische Fähigkeiten verfügt und, engagiert, strukturiert und teamfähig arbeitet. Der oder die Bewerber(in) muss mindestens einen Bachelor in Architektur abgeschlossen haben. Gute Kenntnisse in Archicad (2D und 3D, BIM), Grundkenntnisse in Adobe Creative Suite und MS Office. Deutschsprachigen werden vorausgesetzt, Kenntnisse in Französisch und Englisch sind ein Plus.</div>
+    </div>
+
+    <div class="long-text-section office-profile">
+      <p>Wenn Sie sich angesprochen fühlen und Interesse an einer dynamischen und jungen Arbeitsatmosphäre haben, bewerben Sie sich bitte mit einem Motivationsschreiben, Lebenslauf und Portfolio (PDF) an: <a href="mailto:mail@nyx-arch.ch">mail@nyx-arch.ch</a> (max. 10MB)
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
