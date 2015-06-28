@@ -23,13 +23,25 @@
   </div>
 </div>
 
-<div class="office-profile-box">
+<div class="office-profile-box box-separator">
   <div class="office-profile">
     <div>{{message('profile.cv.nathanael')}}</div>
   </div>
 
   <div class="office-profile">
     <div>{{message('profile.cv.yann')}}</div>
+  </div>
+</div>
+
+<div class="office-profile-box box-separator">
+  <div class="office-profile">
+    <div>{{message('profile.experience.nathanael')}}</div>
+  </div>
+</div>
+
+<div class="office-profile-box">
+  <div class="office-profile">
+    <div>{{message('profile.experience.yann')}}</div>
   </div>
 </div>
 

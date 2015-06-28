@@ -51,3 +51,52 @@ profile.cv.yann: '<div class="cv">
   <dt>1980</dt>      <dd>In Lausanne geboren
 </dl>
 </div>'
+
+profile.experience.nathanael: '
+<h2>Nathanaël Chollet, Erfahrung 2009-2014</h2>
+<div><strong>2010-2014</strong>, Meili Peter Architekten, Zürich,</div>
+<div>Projekte in leitender Funktion:</div>
+<ul>
+  <li><div>Hochhaus Zölly, City West, Zürich (Bauprojekt -> Ausführung)</div>
+      Preis: Hochparterre, Kategorie Architektur, Hase in Silber
+  <li>Wohngebäude B, City West, Zürich (Vorprojekt -> Ausführung)
+  <li>Postareal Baden (Entwicklungsstudie, Vorprojektlight)
+  <li>Zürichseegut, Stäfa (Wettbewerb, 2. Preis)
+  <li>Nobelcenter, Stockholm, Sweden (Wettbewerb)
+  <li>Guggach II, Wohnquartier, Zürich (Wettbewerb)
+  <li>Thurgauerstrasse, Zürich (Testplanung)
+</ul>
+
+<div><strong>2009-2010</strong>, Ruprecht Architekten, Zürich</div>
+<div>Projekte in leitender Funktion:</div>
+<ul>
+  <li>St.Thomaskirche, Inwil (Wettbewerb, 1.Preis)
+  <li>Öko-Quartier, La Jonction, Genf, (Wettbewerb, 5.Preis)
+  <li>Sanierung des Gebäudeparks des Völkerbundpalast (UNO), Genf, (Erstellen einer methodologischen und kommerziellen Offerte 2.Platz)
+  <li>Obenstufenschulhaus DOSF, Fribourg (Wettbewerb)
+</ul>
+'
+profile.experience.yann: '
+<h2>Yann Gramegna, Erfahrung 2008-2013</h2>
+<div><strong>2010-2013</strong>, Harry Gugger Studio, Basel,</div>
+<div>Projekte in leitender Funktion:</div>
+<ul>
+  <li>Pflegeheim und Alterswohnungen Limmatfeld, Dietikon (Wettbewerb (1. Preis) -> Ausführung)
+  <li>St Johannvorstadt, Basel (Städtebauliche Studie)
+  <li>Hochschulgebäude im Nahen Osten (Vorprojekt)
+  <li>Spenglerpark, Münchenstein (Umnutzung, Studienauftrag)
+  <li>Bird College, London (Wettbewerb)
+  <li>Montreux Jazz Pavillon, EPFL Lausanne (Wettbewerb)
+</ul>
+
+<div><strong>2008-2010</strong>, Herzog &amp; de Meuron, Basel</div>
+<div>Projekte:</div>
+<ul>
+  <li>Erweiterung Museum Unterlinden, Colmar (Wettbewerb (1. Preis) -> Ausführungsplanung)
+  <li>Pflegeheim Südpark Baufeld D, Basel (Ausführungsplanung)
+  <li>Hochhaus Projet Triangle, Paris (Vorprojekt)
+  <li>Tanzschule und Konzerthalle, Sao Paulo (Vorprojekt)
+  <li>St Thomas Street, London (Vorprojekt)
+  <li>Masterplan Confluence, Lyon (Städtebau)
+</ul>
+'
