@@ -22,21 +22,11 @@ body {
 }
 
 .container {
-  width:972px;
   margin-left:auto;
   margin-right:auto;
 }
 
-.menu {
-  position:fixed;
-  top:40px;
-}
 
-.content {
-  margin-left:272px;
-  margin-top:40px;
-  margin-bottom: 40px;
-}
 
 .logo-container {
   width: 224px;
@@ -279,5 +269,54 @@ body {
 
 .news-box a:hover {
   text-decoration:underline;
+}
+
+/* for screen with a height bigger than 800px */
+
+@media all and (max-height: 799px) {
+  .container {
+    width:700px;
+  }
+
+  .menu {
+    margin-top:40px;
+  }
+  
+  .menu .logo-container {
+    display:inline-block;
+    vertical-align:top;
+    width: 220px;
+  }
+  
+  .menu .logo-container:nth-child(3n -1), 
+  .content .content-block:nth-child(3n) {
+    margin-left:20px;
+    margin-right:20px;
+  }
+  
+  .content {
+    margin-bottom: 40px;
+  }
+  
+  .content .content-block {
+    margin:0;
+  }
+}
+
+@media all and (min-height: 800px) {
+  .container {
+    width:972px;
+  }
+  
+  .menu {
+    position:fixed;
+    top:40px;
+  }
+
+  .content {
+    margin-left:272px;
+    margin-top:40px;
+    margin-bottom: 40px;
+  }
 }
 
