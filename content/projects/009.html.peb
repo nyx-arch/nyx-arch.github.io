@@ -1,0 +1,36 @@
+---
+preview-image: 009_CI_1506_000_vignette.png
+date: 2014-01-09
+info:
+  fr:
+    name: LOGEMENTS SOCIAUX, LAUSANNE
+    location: Rue St-Martin, Lausanne (VD)
+    customer: FLCL, Lausanne
+    program: Soupe populaire, logements d’urgence, logements sociaux
+    budget: 21’000’000 CHF
+    date: 2015
+    type: concours ouvert
+    team: NYX architectes, SIMA/BREER (architectes paysagistes)
+    images: NYX architectes
+  de:
+    name: SOZIALER WOHNUNGSBAU, LAUSANNE
+    location: Rue St-Martin, Lausanne (VD)
+    customer: FLCL, Lausanne
+    program: Soupe populaire, Notschlafstelle, Sozialwohnungen
+    budget: 21’000’000 CHF
+    date: 2015
+    type: offene Wettbewerb
+    team: NYX architectes, SIMA/BREER (Landschaftsarchitektur)
+    images: NYX architectes
+  en:
+    name: SOCIAL HOUSING, LAUSANNE
+    location: Rue St-Martin, Lausanne (VD)
+    customer: FLCL, Lausanne
+    program: Soupe populaire, emergency sleep-units, social apartments
+    budget: 21’000’000 CHF
+    date: 2015
+    type: open competition
+    team: NYX architectes, SIMA/BREER (landscape architect)
+    images: NYX architectes
+---
+{% extends "common/project-page.peb" %}
