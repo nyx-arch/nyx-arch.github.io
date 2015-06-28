@@ -14,11 +14,11 @@
             <a href="/fr/{% block section %}{% endblock %}/" hreflang="fr">FR</a> 
             <a href="/en/{% block section %}{% endblock %}/" hreflang="en">EN</a>
         </div>
-        </div>
-        <div class="logo-container logo-y {% block projectSelected %}{%endblock %}">
+        </div><div 
+          class="logo-container logo-y {% block projectSelected %}{%endblock %}">
           <a class="logo-link-section" href="{% block basePath %}{% endblock %}{{locale}}/projects/">{{message('projects')}}</a>        
-        </div>
-        <div class="logo-container logo-x {% block officeSelected %}{%endblock %}">
+        </div><div 
+          class="logo-container logo-x {% block officeSelected %}{%endblock %}">
           <a class="logo-link-section" href="{% block basePath %}{% endblock %}{{locale}}/office/">{{message('office')}}</a>          
         </div>
       </div>
