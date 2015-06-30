@@ -1,0 +1,36 @@
+---
+preview-image: 007_CI_1501_000_preview.png
+date: 2014-01-07
+info:
+  fr:
+    name: CENTRE SPORTIF DE MALLEY, LAUSANNE
+    location: Communes de Renens et Prilly, Lausanne (VD)
+    customer: CIGM, Centre Intercommunal de Glace de Malley SA, Prilly
+    program: Patinoire (7’000-10’000 spectateurs), piscine olympique (2’000 spectateurs), halle de tennis de table et halle d’escrime
+    budget: 206’000’000 CHF
+    date: 2014
+    type: concours ouvert
+    team: NYX architectes, Basler &amp; Hofmann AG (ingénieurs civils), ER Energies Rationnelles SA (technique du bâtiment), SIMA/BREER (architectes paysagistes)
+    images: NYX architectes
+  de:
+    name: SPORTZENTRUM, LAUSANNE
+    location: Gemeinden von Renens und Prilly, Lausanne (VD)
+    customer: CIGM, Centre Intercommunal de Glace de Malley SA, Prilly
+    program: Eishockey Stadion (7’000-10’000 Zuschauer), olympische Schwimmhalle, Tischtennis- und Fechtsporthalle. 
+    budget: 206’000’000 CHF
+    date: 2014
+    type: offene Wettbewerb
+    team: NYX architectes, Basler &amp; Hofmann AG (Bauingenieur), ER Energies Rationnelles SA (Gebäudetechnik), SIMA/BREER (Landschaftarchitektur)
+    images: NYX architectes
+  en:
+    name: SPORTCENTER, LAUSANNE
+    location: Municipality of Renens and Prilly, Lausanne (VD)
+    customer: CIGM, Centre Intercommunal de Glace de Malley SA, Prilly
+    program: Hockey stadium (7’000-10’000 spectator), olympic swimming pool (2’000 spectator), table tennis and fencing hall 
+    budget: 206’000’000 CHF
+    date: 2014
+    type: open competition
+    team: NYX architectes, Basler &amp; Hofmann AG (structural engineer), ER Energies Rationnelles SA (mechanical engineer), SIMA/BREER (landscape architect)
+    images: NYX architectes
+---
+{% extends "common/project-page.peb" %}
