@@ -28,7 +28,7 @@
     <div>{{message('profile.cv.nathanael')}}</div>
   </div>
 
-  <div class="office-profile">
+  <div class="office-profile additional-top-space">
     <div>{{message('profile.cv.yann')}}</div>
   </div>
 </div>
