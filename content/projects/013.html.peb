@@ -1,0 +1,36 @@
+---
+preview-image: 013_CI_1605_000_preview.png
+date: 2014-01-07
+info:
+  fr:
+    name: FONDATION LA CIGALE, LAUSANNE
+    location: Lausanne-Vennes (VD)
+    customer: Fondation la Cigale, Lausanne
+    program: Home pour personnes âgées, 60 chambres
+    budget: 16’500’000 CHF
+    date: 2016
+    type: concours ouvert
+    team: NYX architectes, Johannes Heine (architectes paysagistes)
+    images: Play-Time
+  de:
+    name: FONDATION LA CIGALE, LAUSANNE
+    location: Lausanne-Vennes (VD)
+    customer: Fondation la Cigale, Lausanne
+    program: Pflegeheim, 60 Pflegezimmer
+    budget: 16’500’000 CHF
+    date: 2016
+    type: offene Wettbewerb
+    team: NYX architectes, Johannes Heine (Landschaftsarchitektur)
+    images: Play-Time
+  en:
+    name: FONDATION LA CIGALE, LAUSANNE
+    location: Lausanne-Vennes (VD)
+    customer: Fondation la Cigale, Lausanne
+    program: Elderly home, 60 rooms
+    budget: 16’500’000 CHF
+    date: 2016
+    type: open competition
+    team: NYX architectes, Johannes Heine (landscape architect)
+    images: Play-Time
+---
+{% extends "common/project-page.peb" %}
