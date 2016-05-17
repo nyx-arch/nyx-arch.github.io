@@ -1,0 +1,23 @@
+{% extends "common/office-page.peb" %}
+
+{% block title %}{{message('office')}} - {{message('team')}}{% endblock %}
+
+{% block section %}office/team{%endblock %}
+
+{% block content %}
+<h1 class="hidden">{{message('team')}}</h1>
+
+<div class="content-image">
+  <img src="../../../images/office/NYX_team.png" alt="NYX team">
+</div>
+<div class="office-profile-box office-profile-box-small box-separator">
+  <div class="long-text-section office-profile">
+    <h2>{{message('team.title')}}</h2>
+    <div class="team-list">{{message('team.list')}}</div>
+  </div>
+  <div class="long-text-section office-profile">
+    <h2>{{message('team.former')}}</h2>
+    <div class="team-list">{{message('team.listformer')}}</div>
+  </div>
+</div>
+{% endblock %}

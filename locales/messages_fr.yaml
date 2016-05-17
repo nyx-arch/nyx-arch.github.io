@@ -1,6 +1,24 @@
 news: News
 projects: Projets
 office: Bureau
+team: Equipe
+
+team.title: Equipe
+team.former: Anciens collaborateurs
+team.list: "<ul>
+  <li>Nathanaël Chollet (Dipl. Arch. EPF/SIA)
+  <li>Yann Gramegna (Dipl. Arch. EPF/SIA)
+  <li>Katarzyna Kosciuk (Dipl. Arch. MSc)
+  <li>Salvador Bru Hernandez (Dipl. Arch. UPV)
+  <li>Filippo Crivelli (intern ETHZ)
+</ul>
+"
+team.listformer: "<ul>
+  <li>Berta Morata Flaquer
+  <li>Dorian Bürgy
+  <li>Jonathan Brügger
+</ul>
+"
 
 office.004: Nous recherchons…
 office.005: Nous recherchons…
@@ -29,6 +47,7 @@ profile.cv.nathanael: '<div class="cv">
 <div>arch. dipl. EPF / ETH</div>
 <dl>
   <dt>2015</dt>      <dd>NYX architectes, Zürich
+  <dt>2015</dt>      <dd>Assistant de projet, chaire de construction et d’architecture de Markus Peter, ETH-Zürich
   <dt>2010-2014</dt> <dd>Chef de projet chez Meili Peter, Zürich. Dès 2012 membre de la direction
   <dt>2009-2010</dt> <dd>Chef de projet chez Ruprecht Architekten, Zürich
   <dt>2004-2005</dt> <dd>Stage chez Simonet Chappuis, Fribourg

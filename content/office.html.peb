@@ -23,6 +23,11 @@
       <div class="block-text">{{message('profile')}}</div>
     </a>
   </div><div class="content-block color-on-hover">
+    <a href="team/">
+      <img src="../../images/office/NYX_team_preview.png">
+      <div class="block-text">{{message('team')}}</div>
+    </a>
+  </div><div class="content-block color-on-hover">
     <a href="004/">
       <img src="../../images/office/004/004_CI_1506_000_preview.png">
       <div class="block-text">{{message('office.004')}}</div>
