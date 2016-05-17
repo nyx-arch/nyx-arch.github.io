@@ -275,6 +275,11 @@ body {
   margin-top:20px;
 }
 
+.team-list ul {
+  margin:0;
+  padding-left:2em;
+}
+
 /* for screen with a height bigger than 800px */
 
 @media all and (max-height: 799px) {
