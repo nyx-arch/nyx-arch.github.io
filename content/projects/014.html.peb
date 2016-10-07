@@ -1,0 +1,36 @@
+---
+preview-image: 014_CI_1610_000_preview.png
+date: 2016-10-07
+info:
+  fr:
+    name: ECOLE WÜRENLINGEN, 2ème rang
+    location: Würenlingen (AG)
+    customer: Commune de Würenlingen
+    program: Ecole avec jardin d’enfants et halle de sport double
+    budget: 23’500’000 CHF
+    date: 2016
+    type: Mandat d’étude parallèle sur préqualification, 2ème rang
+    team: NYX architectes, Synaxis AG Zürich (ingénieurs civils), Andreas Geser Landschaftsarchitekten AG (architectes paysagistes), Jaeger Baumanagement AG (économiste de la construction)
+    images: Play-Time, NYX architectes
+  de:
+    name: SCHULHAUS WÜRENLINGEN, 2.Rang
+    location: Würenlingen (AG)
+    customer: Gemeinde Würenlingen
+    program: Schulhaus mit Kindergarten und Zweifachsporthalle
+    budget: 23’500’000 CHF
+    date: 2016
+    type: Studienauftrag nach Präqualifikation, 2. Rang
+    team: NYX architectes, Synaxis AG Zürich (Bauingenieur), Andreas Geser Landschaftsarchitekten AG, Jaeger Baumanagement AG
+    images: Play-Time, NYX architectes
+  en:
+    name: SCHOOL WÜRENLINGEN, 2nd place
+    location: Würenlingen (AG)
+    customer:  Municipality of Würenlingen
+    program: School with kindergarten and double sport hall
+    budget: 23’500’000 CHF
+    date: 2016
+    type: Selected Parallel Study, 2nd place
+    team: NYX architectes, Synaxis AG Zürich (structural engineer), Andreas Geser Landschaftsarchitekten AG (landscape architect), Jaeger Baumanagement AG (cost specialist)
+    images: Play-Time, NYX architectes
+---
+{% extends "common/project-page.peb" %}
