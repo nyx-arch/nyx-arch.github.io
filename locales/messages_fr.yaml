@@ -8,15 +8,16 @@ team.former: Anciens collaborateurs
 team.list: "<ul>
   <li>Nathanaël Chollet (Dipl. Arch. EPF/SIA)
   <li>Yann Gramegna (Dipl. Arch. EPF/SIA)
+  <li>Marnie Amato (Dipl. Arch. EPF)
   <li>Katarzyna Kosciuk (Dipl. Arch. MSc)
   <li>Salvador Bru Hernandez (Dipl. Arch. UPV)
-  <li>Filippo Crivelli (intern ETHZ)
+  <li>Dorian Bürgy (Msc. Arch. ETH)
 </ul>
 "
 team.listformer: "<ul>
   <li>Berta Morata Flaquer
-  <li>Dorian Bürgy
   <li>Jonathan Brügger
+  <li>Filippo Crivelli
 </ul>
 "
 
