@@ -1,0 +1,36 @@
+---
+preview-image: 018_CI_1702_000_preview.png
+date: 2017-02-16
+info:
+  fr:
+    name: INNOCAMPUS BIENNE, 3ème prix
+    location: Bienne (BE)
+    customer: Switzerland Innovationspark Biel/Bienne, Innocampus AG, Nidau-Biel
+    program: Laboratoires, buros, halles de production, auditoire, café
+    budget: 38’000’000 CHF
+    date: 2016
+    type: Concours ouvert, 3ème prix
+    team: NYX architectes, Basler Hoffmann AG Zürich (ingénieurs civils), TPAG AG, Biel (technique du bâtiment), Prona AG, Biel (énergie), ARO Plan AG, Oberägeri (spécialistes laboratoires)
+    images: Play-Time
+  de:
+    name: INNOCAMPUS BIEL, 3. Preis
+    location: Biel (BE)
+    customer: Switzerland Innovation Park Biel/Bienne, Innocampus AG, Nidau-Biel
+    program: Labore, Büro, Werkhallen, diverse öffentliche Nutzungen
+    budget: 38’000’000 CHF
+    date: 2016
+    type: Offener Wettbewerb, 3. Rang
+    team: NYX architectes, Basler Hoffmann AG Zürich (Bauingenieur), TPAG AG, Biel (Haustechnik), Prona AG, Biel (Energie), ARO Plan AG, Oberägeri  (Laborplanung) 
+    images: Play-Time
+  en:
+    name: INNOCAMPUS BIEL/BIENNE, 3rd prize
+    location: Biel/Bienne (BE)
+    customer:  Switzerland Innovationspark Biel/Bienne, Innocampus AG, Nidau-Biel
+    program: Laboratories, offices, production halls, auditorium, café
+    budget: 38’000’000 CHF
+    date: 2016
+    type: Open competition, 3rd prize
+    team: NYX architectes, Basler Hoffmann AG Zürich (civil engineer), TPAG AG, Biel (MEP engineer), Prona AG, Biel (Energie), ARO Plan AG, Oberägeri (Laborplaning) 
+    images: Play-Time
+---
+{% extends "common/project-page.peb" %}

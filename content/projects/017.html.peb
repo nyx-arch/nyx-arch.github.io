@@ -1,0 +1,36 @@
+---
+preview-image: 017_CI_1702_000_preview.png
+date: 2017-02-16
+info:
+  fr:
+    name: LOGEMENTS ZÜRICH-AFFOLTERN
+    location: Waidmatt, Zürich-Affoltern (ZH)
+    customer: Baugenossenschaft Waidmatt
+    program: Appartements, commerces, espace communautaire, jardin d’enfants
+    budget: 110’000’000 CHF
+    date: 2016
+    type: Concours ouvert
+    team: NYX architectes, Carolin Riede Architecte paysagère BSLA
+    images: Play-Time
+  de:
+    name: WOHNSIEDLUNG ZÜRICH-AFFOLTERN
+    location: Waidmatt, Zürich-Affoltern (ZH)
+    customer: Baugenossenschaft Waidmatt
+    program: Wohnen, Gewerbe, Gemeinschaftsraum, Doppelkindergarten
+    budget: 110’000’000 CHF
+    date: 2016
+    type: Offener Wettbewerb
+    team: NYX architectes, Carolin Riede Landschaftsarchitektin BSLA
+    images: Play-Time
+  en:
+    name: HOUSING ZÜRICH-AFFOLTERN
+    location: Waidmatt, Zürich-Affoltern (ZH)
+    customer: Baugenossenschaft Waidmatt
+    program: Apartments, shops, common spaces, kindergarten
+    budget: 110’000’000 CHF
+    date: 2016
+    type: Open competition
+    team: NYX architectes, Carolin Riede Landscape architect BSLA
+    images: Play-Time
+---
+{% extends "common/project-page.peb" %}
