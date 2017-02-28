@@ -1,0 +1,36 @@
+---
+preview-image: 019_CI_1702_000_preview.png
+date: 2017-02-28
+info:
+  fr:
+    name: BASTION ST-ANTOINE GENÈVE, 5ème prix
+    location: Genève (GE)
+    customer: Ville de Genève
+    program: Mise en valeur du site archéologique et aménagement de la place
+    budget: 12’000’000 CHF
+    date: 2016
+    type: Concours ouvert, 5ème prix
+    team: NYX architectes, Westpol, Bâle (architectes paysagers), Rapp Infra AG, Münchenstein (ingénieurs civils)
+    images: NYX architectes
+  de:
+    name: BASTION ST-ANTOINE GENF, 5. Preis
+    location: Genève (GE)
+    customer: Stadt Genf
+    program: Aufwertung der archäologischen Stätte und Platzgestaltung
+    budget: 12’000’000 CHF
+    date: 2016
+    type: Offener Wettbewerb, 5. Preis
+    team: NYX architectes, Westpol, Basel (Landschaftsarchitektur), Rapp Infra AG, Münchenstein (Bauingenieur)
+    images: NYX architectes
+  en:
+    name: BASTION ST-ANTOINE GENEVA, 5th prize
+    location: Geneva (GE)
+    customer:  City of Geneva
+    program: Enhancement of the archaeological site and the public square
+    budget: 12’000’000 CHF
+    date: 2016
+    type: Open competition, 5th prize
+    team: NYX architectes, Westpol, Basel (landscape architect), Rapp Infra AG, Münchenstein (structural engineer)
+    images: NYX architectes
+---
+{% extends "common/project-page.peb" %}
