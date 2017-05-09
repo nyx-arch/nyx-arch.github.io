@@ -1,0 +1,22 @@
+---
+preview-image: 010_CI_1705_000_preview.png
+date: 2015-01-01
+info:
+  fr:
+    name: THE CIRCLE, AEROPORT DE ZÜRICH
+    text: >
+      <p>NYX architectes GmbH est mandaté par le bureau lausannois Richter - Dahl Rocha &amp; Associés architectes SA pour collaborer à la réalisation d’un des bâtiments du projet “The Circle” à l’aéroport de Zürich. NYX architectes travaille à la réalisation du bâtiment H15, un édifice de 10 étages rassemblant surfaces commerciales, bureaux, bars, restaurants et un hôtel**** Superior  de 256 chambres (Hyatt Regency).</p>
+      <p>L’auteur du projet et l’architecte pilote est le bureau d’architectes japonais Riken Yamamoto &amp; Fieldshop à Yokohama.</p>
+      <p>L’entreprise responsable des travaux de construction est HRS Real Estate AG à Zürich.</p>
+  de:
+    name: THE CIRCLE, FLUGHAFEN ZÜRICH
+    text: >
+      <p>NYX architectes GmbH ist vom Architekturbüro Richter Dahl Rocha &amp; Associés architectes SA in Lausanne für die Ausführungsplanung eines Teilobjektes von “The Circle” am Flughafen Zürich beauftragt worden. NYX architectes bearbeitet die Ausführungsplanung des Gebäudes H15. Das 10-geschossige Gebäude besteht aus Gewerbeflächen, Büroräume, Bars, Restaurants und ein 4* Superior Hotel (Hyatt Regency) mit 256 Zimmer.</p>
+      <p>Der Projektverfasser und das leitende Architekturbüro ist Riken Yamamoto &amp; Fieldshop aus Yokohama, Japan. Die für die Ausführung verantwortliche Totalunternehmerin ist die Firma HRS Real Estate AG in Zürich.</p>
+  en:
+    name: THE CIRCLE, ZÜRICH AIRPORT
+    text: >
+      <p>NYX architectes GmbH is commissioned from the architecture office Richter - Dahl Rocha &amp; Associés architectes SA in Lausanne to collaborate on the construction drawings of a part of the project “The Circle” at the Zürich airport. NYX architectes works at the execution of the H15, a 10 floors building including shops, offices, bars, restaurants and a **** Superior hotel (Hyatt Regency) of 256 hotel rooms.</p>
+      <p>The author of the project and leading architect is Riken Yamamoto &amp; Fieldshop of Yokohama, Japan. The general contractor responsible for the construction work is HRS Real Estate AG in Zürich.</p>
+---
+{% extends "common/project-page-simple.peb" %}

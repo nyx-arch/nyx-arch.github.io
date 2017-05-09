@@ -1,0 +1,26 @@
+
+{%extends "common/base-page.peb" %}
+
+{% block title%}{{message('project')}}: {{fromInfo(resource, locale, 'name')}}{% endblock %}
+
+{% block basePath %}../../../{% endblock %}
+
+{% block projectSelected %}selected{%endblock %}
+
+{% block section %}projects/{{resource.fileNameWithoutExtensions}}{%endblock %}
+
+{% block content %}
+
+  <h1 class="hidden">{{message('project')}}: {{fromInfo(resource, locale, 'name')}}</h1>
+
+  {% for image in fromMap(static.directories.images.directories.projects.directories, resource.fileNameWithoutExtensions).files.keySet %}{% if loop.index > 0%}<div class="content-image"><img src="../../../images/projects/{{resource.fileNameWithoutExtensions}}/{{image}}"></div>{% endif %}{% endfor %}<div class="news-box long-text-section">
+  <div>
+    <h1>{{fromInfo(resource, locale, 'name')}}</h1>
+    {{fromInfo(resource, locale, 'text')|raw}}
+  </div>
+</div>
+{% endblock %}
+
+{% macro fromInfo(resource, locale, name) %}
+  {{fromMap(fromMap(resource.metadata.rawMap.info, locale.toString()), name)}}
+{% endmacro %}
